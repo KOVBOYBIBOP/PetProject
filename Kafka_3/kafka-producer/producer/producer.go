@@ -45,7 +45,7 @@ func StartProducer() error {
 			log.Printf("Message sent: %s", message)
 		}
 
-		time.Sleep(1 * time.Second) // Simulate real-time events
+		time.Sleep(1 * time.Second)
 	}
 }
 

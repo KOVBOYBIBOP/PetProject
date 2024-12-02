@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	// Запуск consumer
 	err := consumer.StartConsumer()
 	if err != nil {
 		log.Fatalf("Failed to start consumer: %v", err)
